@@ -1,0 +1,15 @@
+{
+  "name": "cypress-base-project",
+  "version": "1.0.0",
+  "description": "Projeto de Testes com Cypress\r Este é um projeto base para realizar testes automatizados utilizando o framework de testes Cypress no Visual Studio Code (VSCode).",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open"
+  },
+  "keywords": [],
+  "author": "Jussara Rosa",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.14.0"
+  }
+}
