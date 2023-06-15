@@ -104,6 +104,13 @@ npx cypress open
 ```
 <br>
 
+## Scripts de Configuração Opcional
+```bash
+    defaultCommandTimeout: 15000, //tempo dos comandos 
+    responseTimeout: 15000, //resposta da requisição api (dinâmico)
+    requestTimeout: 15000, //pedido da requisição (dinâmico)
+    pageLoadTimeout: 15000, //tempo de carregamento da página (estático)
+```
 ## Recursos Adicionais
 
 ### Documentação oficial do Cypress
@@ -123,6 +130,10 @@ https://github.com/cypress-io/cypress-example-recipes
 ### Linha de comando
 
 https://docs.cypress.io/guides/guides/command-line#Commands
+
+### Configuração de Timeouts opcional
+
+https://docs.cypress.io/guides/references/configuration
 
 
 ## Licença
